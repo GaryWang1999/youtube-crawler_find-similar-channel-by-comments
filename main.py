@@ -83,7 +83,7 @@ if os.path.isfile('related_url_set.txt'):
         search_results_url.append(url[:len(url) - 2])
 else:
 '''
-search_results_url = search_and_grab_url(related_url_list[2:4])
+search_results_url = search_and_grab_url(related_url_list)
 print(search_results_url)
 #search_and_grab_url(url_list)
 
